@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kr.hs.emirim.s2019w04.mirimmenutest2_1.MainActivity">
+
+    <item
+        android:id="@+id/item_rotate"
+        android:title="그림회전"/>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_na"
+            android:title="김나영"/>
+        <item
+            android:id="@+id/item_na2"
+            android:title="나영"/>
+        <item
+            android:id="@+id/item_na3"
+            android:title="영"/>
+    </group>
+</menu>
